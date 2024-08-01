@@ -14,4 +14,4 @@ if __name__ == '__main__':
     c.add_student(riri)
     c.add_student(zaza)
 
-    c.start_course(balthazar, "Economie")
+    c.start_course(balthazar, "sport")

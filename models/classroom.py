@@ -1,17 +1,16 @@
 from models.student import Student
-from models.teacher import Teacher
 import random
 
 class Classroom:
 
     def __init__(self, main_teacher, nb_place):
+        self.nbr_mur = 4;
         self.nb_place = nb_place
         self.students = []
         self.main_teacher = main_teacher
 
 
     def add_student(self, new_student):
-
         if isinstance(new_student, Student):
             if self.nb_place > len(self.students):
                 self.students.append(new_student)
