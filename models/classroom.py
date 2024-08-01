@@ -14,10 +14,6 @@ class Classroom:
         if isinstance(new_student, Student):
             if self.nb_place > len(self.students):
                 self.students.append(new_student)
-                # print("Etudiant ajouté")
-            else:
-                # print("Classe complete")
-                pass
 
 
     def start_course(self, teacher, course):
